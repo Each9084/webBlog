@@ -1,0 +1,28 @@
+const articles = [
+    {
+        id: "article001",
+        title: "使用 React 构建博客",
+        summary: "介绍如何用 React + Tailwind 打造酷炫博客页面...",
+        date: "2025-06-24",
+        cover: "https://fcbsassetserver.azurewebsites.net/Bundle/GetBundleById?bundleId=83ac3818-ab06-4bcf-bac8-09726351f0d5&size=powerpoint", // 外部图片
+        tags: ["React", "前端", "博客"]
+    },
+    {
+        id: "article002",
+        title: "使用 Spring Boot 构建后端 API",
+        summary: "通过 RESTful API 与前端连接，支持文章存取...",
+        date: "2025-06-20",
+        cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmd5KQkyBLRMBPOS1Hm4XXNextFOO7LyscIw&s",
+        tags: ["Java", "Spring Boot", "后端"]
+    },
+    {
+        id: "article003",
+        title: "Markdown 编辑器集成指南",
+        summary: "整合开源编辑器支持在线编辑和预览 Markdown...",
+        date: "2025-06-18",
+        cover: "https://i.ytimg.com/vi/FmNMygGwRvw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC98UwPKWoYXqRMccuYQxLbuZV6Xg",
+        tags: ["Markdown", "编辑器", "内容创作"]
+    }
+];
+
+export default articles;
